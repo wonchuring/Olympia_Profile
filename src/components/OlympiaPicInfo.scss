@@ -1,0 +1,40 @@
+.OlympiaPicInfo {
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .OlympiaPic {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+    .topimg {
+      margin-bottom: 55px;
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+        border: 1px solid #fdfbf9;
+      }
+    }
+
+    .bottomimg {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        cursor: pointer;
+        object-fit: cover;
+        border: 1px solid #fdfbf9;
+        box-sizing: border-box;
+
+        &:hover {
+          border: 3px solid #eb2529;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.OlympiaProfileInfo {
+  width: 700px;
+  margin-left: 30px;
+  text-align: center;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fdfbf9;
+    padding-left: 0;
+    box-sizing: border-box;
+
+    li {
+      border: 1px solid #fdfbf9;
+      border-radius: 10px;
+      font-size: 35px;
+      width: 30%;
+      text-align: center;
+      vertical-align: middle;
+      height: 50px;
+      list-style-type: none;
+      cursor: pointer;
+
+      &:hover {
+        background: #eb2529;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.OlympiaProfile {
+  padding: 10px 20px 20px 20px;
+  width: 650px;
+  height: 480px;
+  box-sizing: border-box;
+  border: 1px solid #fdfbf9;
+  border-radius: 10px;
+  display: inline-block;
+
+  .InfoProfile {
+    text-align-last: left;
+
+    h3 {
+      font-size: 40px;
+      // color: #eb2529;
+      color: #fdfbf9;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    span {
+      font-size: 25px;
+      font-weight: 700;
+      color: #eb2529;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    strong {
+      font-size: 20px;
+      color: #eb2529;
+      display: block;
+    }
+
+    p {
+      color: #fdfbf9;
+      margin-bottom: 20px;
+    }
+  }
+
+  .InfoOverview {
+    text-align: left;
+    margin-top: 0;
+    strong {
+      font-size: 25px;
+      color: #fdfbf9;
+      line-height: 1.5;
+      display: block;
+    }
+  }
+
+  .InfoCareer {
+    text-align: left;
+
+    strong {
+      font-size: 25px;
+      color: #eb2529;
+      line-height: 1.5;
+      display: block;
+    }
+  }
+}
